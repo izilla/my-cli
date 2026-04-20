@@ -1,0 +1,5 @@
+[test]
+timeout = 10000
+preload = ['./src/test/setup.ts']
+coverageSkipTestFiles = true
+pathIgnorePatterns = "dist/*"
